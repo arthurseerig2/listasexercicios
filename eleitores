@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main (void) {
+	
+	int Eleitores, Branco, Valido, Nulo = 0;
+
+	printf("Digite o numero de votos nulos: \n"); 
+	printf("Digite o numero de votos brancos: \n"); 
+	printf("Digite o numero de votos validos: \n"); 
+
+	if (Nulo < 0) {
+		printf("Valor não eh compativel"); 
+		}
+		else {
+		printf("Valor de votos nulos: %d \n", Nulo);
+		printf("Percentual de votos nulos: %.d%% \n", Nulo);
+        }
+    
+    if (Valido < 0) {
+    	printf("Valor não eh compativel");
+    }
+    	else {
+    		printf("Valor de votos validos: %d\n", Valido);
+    		printf("Percentual de votos validos: %d%%\n", Valido);
+    	}
+    
+    if (Branco < 0) {
+    	printf("Valor de votos brancos incompativel");
+    }
+    	else {
+    		printf("Valor de votos brancos: %d\n", Branco);
+    		printf("Percentual de votos brancos: %d%%\n", Branco);
+    	}
+    if (Eleitores <= 0) {
+    	printf("Nao houve eleicao");
+    }
+    else {
+    	printf("O numero total de eleitores foram: %d", Eleitores);
+    }
+
+        return 0; 
+}
