@@ -1,12 +1,14 @@
+//calcular area do retangulo
 #include <stdio.h>
 
-int main () {
-	float area, base, altura;
-	printf("O valor da base: "); scanf("%f", &base);
-  
-	printf("O valor da altura: "); scanf("%f", &altura);
-  
-	area = base * altura;
-  
-	printf("O valor da area: %f", area); // nao descobri como tirar as casas decimais
+int main (void) {
+  float area, base, altura;
+  printf("Escreva o valor da base: "); scanf("%f", &base); // nao esquecer do & memoria
+  printf("Escreva o valor da altura "); scanf("%f", &altura); // nao esquecer do & memoria
+
+  area = base * altura;
+
+  printf("O valor da area do retangulo eh: %f", area); // n usar scanf pq variavel ja ta pronta
+
+  return 0;
 }
