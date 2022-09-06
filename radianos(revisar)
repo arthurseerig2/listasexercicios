@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main (void) {
+  float radianos = 0, grau = 0, pi = 3.14;
+  printf("Insira o valor em graus: \n");
+  radianos = (grau/180) * pi;
+  printf("O valor em radianos é: %f\n", radianos); scanf("%lf", radianos);
+  
+  
+  }
+  
