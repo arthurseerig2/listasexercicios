@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main (void) {
+  int idade = 34, ano = 0;
+  2022 - 34 = ano; scanf("%d", ano);
+  printf ("ano de nascimento %d", ano); 
+  
+  }
+  
