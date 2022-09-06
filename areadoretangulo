@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main () {
+	float area, base, altura;
+	printf("O valor da base: "); scanf("%f", &base);
+  
+	printf("O valor da altura: "); scanf("%f", &altura);
+  
+	area = base * altura;
+  
+	printf("O valor da area: %f", area); // nao descobri como tirar as casas decimais
+}
