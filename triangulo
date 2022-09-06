@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main (void) {
+	float base, altura, area;
+	printf("valor da base: "); scanf("%f", base); // o printf precisa do scanf pra ter o valor de input aparecendo na tela
+	printf("valor da altura: "); scanf("%f", altura);
+
+	area = (base * altura) / 2;
+
+	printf("o valor da area do triangulo eh: %f\n", area); // nao por scanf pq variavel ja tem valor
+  return 0;
+}
